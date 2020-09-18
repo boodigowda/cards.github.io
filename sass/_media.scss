@@ -1,0 +1,26 @@
+@media all and (max-width: 990px) and (min-width: 767px) {
+  .card {
+    margin-top: 20%;
+    height: 86%;
+  }
+  .card-body {
+    transform: translateY(4%);
+    text-align: center;
+    padding: 0;
+  }
+  .card-img {
+    width: 70%;
+    height: 47%;
+    box-shadow: 4px 7px 7px grey;
+    transform: translateY(0%);
+    object-fit: fill;
+    margin-left: 15%;
+  }
+  .card-title {
+    font-size: 14px;
+    margin-bottom: 1px;
+  }
+  .card-text {
+    line-height: normal;
+  }
+}
